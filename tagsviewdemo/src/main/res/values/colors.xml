@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/cyan_dark</color>
+    <color name="colorPrimaryDark">@color/cyan_dark</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="cyan">#5EBD9D</color>
+    <color name="cyan_dark">#229F7F</color>
+
+
+    <array name="tagColors">
+        <item >#4BC270</item>
+        <item >#DAE925</item>
+        <item >#FF8080</item>
+        <item >#159FEE</item>
+        <item >#1479D3</item>
+
+
+        <item >#229F7F</item>
+        <item >#5CBB9B</item>
+        <item >#8FB9AB</item>
+        <item >#A6E9B4</item>
+        <item >#F1E146</item>
+        <item >#F7EA8A</item>
+
+        <item >#F87C32</item>
+        <item >#FB9555</item>
+        <item >#E61518</item>
+        <item >#EE4F54</item>
+        <item >#EE2159</item>
+
+        <item >#F04975</item>
+        <item >#F68483</item>
+        <item >#F7A6A2</item>
+    </array>
+
+</resources>

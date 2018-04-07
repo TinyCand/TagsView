@@ -1,0 +1,55 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        minSdkVersion 10
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0.0-Beta"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+}
+
+android {
+    lintOptions {
+        abortOnError false
+    }
+}
+
+/** 以下开始是将Android Library上传到jCenter的相关配置**/
+apply plugin: 'com.novoda.bintray-release'//添加
+//项目主页
+def siteUrl = 'https://github.com/TinyCand/TagsView'
+publish{
+    repoName = 'Mobile'//远程仓库名字,不指明，默认是上传到maven
+    userOrg = 'tinycand'//bintray.com的用户名
+    groupId = 'com.tinycand.mobile'//jcenter上的路径
+    artifactId = 'TagsView'//项目名称
+    publishVersion = '0.0.1-Beta'//版本号
+    desc = 'TagsView is a ViewGroup, which displays items in a two-dimensional, like GridView, but the length of item is uncertain.'//描述，不重要
+    website = siteUrl//项目主页
+}
+tasks.withType(Javadoc) {//防止编码问题
+    options.addStringOption('Xdoclint:none', '-quiet')
+    options.addStringOption('encoding', 'UTF-8')
+    options.addStringOption('charSet', 'UTF-8')
+}

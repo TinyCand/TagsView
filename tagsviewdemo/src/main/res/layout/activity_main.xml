@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:background="#0bbb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tinycand.tagsviewdemo.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:text="Pick some tags:"
+        android:textSize="24dp"
+        android:textColor="@color/cyan"
+        android:padding="16dp"
+        android:background="#00FFaaaa"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+    <com.tinycand.tagsview.TagsView
+        android:id="@+id/tagsView_all"
+        android:background="#0033aaaa"
+        app:horizontalSpacing="10dp"
+        app:verticalSpacing="10dp"
+        app:stretchMode="spacingWidth_auto"
+        android:paddingLeft="16dp" android:paddingRight="16dp"
+        android:paddingTop="5dp" android:paddingBottom="2dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp" android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp" android:layout_marginBottom="5dp"
+        />
+
+        <!--android:textColor="#F04975"-->
+        <TextView
+            android:text="My tags:"
+            android:textSize="24dp"
+            android:padding="16dp"
+            android:textColor="#F68483"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"/>
+    <com.tinycand.tagsview.TagsView
+        android:id="@+id/tagsView_mine"
+        android:visibility="visible"
+        android:clickable="true"
+        android:descendantFocusability="blocksDescendants"
+        android:background="#0033aaaa"
+        android:padding="16dp"
+        app:horizontalSpacing="10dp"
+        app:verticalSpacing="10dp"
+        app:stretchMode="none"
+        android:paddingLeft="5dp" android:paddingRight="5dp"
+        android:layout_width="wrap_content" android:layout_height="match_parent"
+        android:layout_marginLeft="0dp" android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp" android:layout_marginBottom="5dp"
+        />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

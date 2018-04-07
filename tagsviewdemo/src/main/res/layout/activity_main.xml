@@ -33,7 +33,7 @@
         android:background="#0033aaaa"
         app:horizontalSpacing="10dp"
         app:verticalSpacing="10dp"
-        app:stretchMode="none"
+        app:stretchMode="spacingWidth_auto"
         android:paddingLeft="16dp" android:paddingRight="16dp"
         android:paddingTop="5dp" android:paddingBottom="2dp"
         android:layout_width="match_parent" android:layout_height="wrap_content"

@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         mTagsView = (TagsView) findViewById(R.id.tagsView_all);
 //        mTagsView.setStretchMode(TagsView.NO_STRETCH);
 //        mTagsView.setStretchMode(TagsView.STRETCH_SPACING);
-        mTagsView.setStretchMode(TagsView.STRETCH_SPACING_AUTO);
+//        mTagsView.setStretchMode(TagsView.STRETCH_SPACING_AUTO);
 
         mMyTagsView = (TagsView) findViewById(R.id.tagsView_mine);
         mMyTagsView.setStretchMode(TagsView.NO_STRETCH);

@@ -15,11 +15,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * TagsView is a light ViewGroup, which displays items in a two-dimensional, like GridView,
+ * TagsView is a ViewGroup, which displays items in a two-dimensional, like GridView,
  * but the length of item is uncertain. <br/>
  * Only support one itemType.<br/>
- * TagsView是一个可以自动换行的轻量级ViewGroup, 用于展示不定长的item, 用法类似于GridView,
- * 可用来展示人物或物品的标签. <br/>
+ * TagsView是一个可以自动换行的ViewGroup, 用于展示不定长的item, 用法类似于GridView,
+ * 可用来展示人物或物品的标签.<br/>
  * 只支持一种itemType<br/>
  * Created by TinyCand on 2018/4/5.
  * Email: TinyCand@gmail.com

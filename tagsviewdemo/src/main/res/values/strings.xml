@@ -1,27 +1,27 @@
 <resources>
     <string name="app_name">TagsView</string>
     <string-array name="tagsName">
-        <item>文艺青年</item>
-        <item>爱运动</item>
-        <item>我有两把枪</item>
-        <item>天蝎座</item>
+        <item>Like Reading</item>
+        <item>Sport</item>
+        <item>Game</item>
+        <item>Scorpio</item>
         <item>Aamir Hussain Khan</item>
 
-        <item>小清新</item>
-        <item>普拉提</item>
-        <item>提莫</item>
-        <item>美剧fans</item>
+        <item>Yoga</item>
+        <item>I am an Alien</item>
+        <item>Teemo</item>
+        <item>Hike</item>
         <item>Scarlett</item>
 
-        <item>二逼青年</item>
+        <item>sleepyhead</item>
         <item>2</item>
-        <item>宇宙第一美</item>
-        <item>游泳</item>
+        <item>beautiful</item>
+        <item>Swim</item>
         <item>千と千尋の神隠し</item>
 
         <item>Death is like the wind; always by me side. 死亡如风，常伴吾身。</item>
         <!--<item>Death is like the wind; always by me side</item>-->
-        <item>选择恐惧症</item>
-        <item>这个杀手不太冷</item>
+        <item>Movie</item>
+        <item> Léon </item>
     </string-array>
 </resources>

@@ -1,7 +1,7 @@
 # TagsView
 TagsView is a ViewGroup, which displays items in a two-dimensional, like GridView, but the length of item is uncertain.
 
-##Demo
+## Demo
 
 Screenshot
 
@@ -18,7 +18,9 @@ dependencies {
 }
 ```
 
-### Add to Layout
+### Layout
+
+Add to Layout
 
 ```xml
     <com.tinycand.tagsview.TagsView
@@ -32,8 +34,7 @@ dependencies {
         />
 ```
 
-
-###Java Code
+### Java Code
 
 Define TagsView in Activity or Fragment:
 
@@ -42,7 +43,7 @@ Define TagsView in Activity or Fragment:
     mMyTagsView.setAdapter(new BaseAdapter(){});
 
 
-#License
+# License
 Copyright 2018 TinyCand
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at

@@ -2,7 +2,7 @@
 
 TagsView是一个可以自动换行的ViewGroup, 用于展示不定长的item, 用法类似于GridView, 可用来展示人物或物品的标签.
 
-##效果图
+## 效果图
 
 ![Alt screenshot](TagsViewDemo_zh.jpg)
 
@@ -33,8 +33,7 @@ dependencies {
         />
 ```
 
-
-###Java 代码
+### Java 代码
 
 在Activity或Fragment中定义并使用TagsView:
 
@@ -43,7 +42,7 @@ dependencies {
     mMyTagsView.setAdapter(new BaseAdapter(){});
 
 
-#License
+# License
 Copyright 2018 TinyCand
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at

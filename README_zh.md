@@ -4,7 +4,7 @@ TagsView是一个可以自动换行的ViewGroup, 用于展示不定长的item, �
 
 ##效果图
 
-![Alt screenshot](TagsViewDemo_zh.jpg")
+![Alt screenshot](TagsViewDemo_zh.jpg)
 
 ## 用法
 ### 引入lib

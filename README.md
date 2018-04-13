@@ -5,7 +5,7 @@ TagsView is a ViewGroup, which displays items in a two-dimensional, like GridVie
 
 Screenshot
 
-![Alt screenshot](TagsViewDemo_en.jpg")
+![Alt screenshot](TagsViewDemo_en.jpg)
 
 ## Usage
 ### Import Library

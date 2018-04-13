@@ -5,9 +5,7 @@ TagsView is a ViewGroup, which displays items in a two-dimensional, like GridVie
 
 Screenshot
 
-
-<img src="TagsViewDemo_en_1.jpg" width="320px"/>
-
+![Alt screenshot](TagsViewDemo_en.jpg")
 
 ## Usage
 ### Import Library
@@ -44,9 +42,6 @@ Define TagsView in Activity or Fragment:
     mMyTagsView.setAdapter(new BaseAdapter(){});
 
 
-[中文介绍](README_zh.md)
-
-
 #License
 Copyright 2018 TinyCand
 
@@ -56,3 +51,5 @@ http://www.apache.org/licenses/LICENSE-2.0
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 See LICENSE file for details.
+
+[中文介绍](README_zh.md)

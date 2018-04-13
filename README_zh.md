@@ -1,12 +1,14 @@
 # TagsView
+
 TagsView是一个可以自动换行的ViewGroup, 用于展示不定长的item, 用法类似于GridView, 可用来展示人物或物品的标签.
 
 ##效果图
 
-<img src="TagsViewDemo_1.jpg" width="320px"/>
+![Alt screenshot](TagsViewDemo_zh.jpg")
 
 ## 用法
 ### 引入lib
+
 在build.gradle添加依赖:
 
 ```groovy
@@ -16,7 +18,9 @@ dependencies {
 ```
 
 ### 布局
+
 在布局文件中添加：
+
 ```xml
     <com.tinycand.tagsview.TagsView
         android:id="@+id/tagsView_all"
@@ -28,7 +32,10 @@ dependencies {
         android:layout_width="match_parent" android:layout_height="wrap_content"
         />
 ```
+
+
 ###Java 代码
+
 在Activity或Fragment中定义并使用TagsView:
 
     TagsView mMyTagsView = (TagsView) findViewById(R.id.tagsView_all);
